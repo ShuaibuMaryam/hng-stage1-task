@@ -1,0 +1,29 @@
+.links__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; 
+    margin-top: 42px;   
+}
+
+.link__wrapper{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+}
+
+.link__wrapper > a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+}
