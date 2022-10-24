@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     padding: 24px 32px;
-    width: 1152px;
+    width: 80%;
     height: 76px;
     background: #EAECF0;
     border: 1px solid #EAECF0;
@@ -37,7 +37,7 @@
     justify-content: center;
     align-items: center;
     gap: 34px;
-    width: 1216px;
+    width: 80%;
     height: 72px;
     margin: 20px 0 114px 0;
 

@@ -3,7 +3,52 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 64px;
+}
+.header__icon{
+    margin: 64px auto 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    /* border: 1px solid; */
+}
+
+.image__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #D0D5DD;
+    border-radius: 50%;
+    padding: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.header__icon > img{
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+}
+
+.header__image{
+    width: 88px;
+    height: 88px;
+    position: relative;
+}
+.header__image__overlay{
+    width: inherit;
+    height: inherit;
+    border-radius: 275px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.header__image:hover .header__image__overlay{
+    opacity: 1;
 }
 
 #twitter{
