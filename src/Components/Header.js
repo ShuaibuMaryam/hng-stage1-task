@@ -1,6 +1,7 @@
 import React from 'react'
 import profileImg from '../Assets/profile__img.png'
 import headerIcon from '../Assets/header icon.png'
+import mobileIcon from '../Assets/mobile icon.png'
 import '../Styles/header.css'
 
 function Header() {
@@ -8,7 +9,8 @@ function Header() {
     <div>
         <div className='header__icon'>
           <div className='image__wrapper'>
-            <a href='google.com'><img src={headerIcon} alt='link icon'/></a>
+            <a href='https://github.com/Shuaibumaryam'><img src={headerIcon} alt='link icon' id='desktop__icon'/></a>
+            <a href='https://github.com/Shuaibumaryam'><img src={mobileIcon} alt='link icon' id='mobile__icon'/></a>
           </div>
         </div>
         <div className='profile__section'>

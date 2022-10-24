@@ -46,3 +46,24 @@
     width: 24px;
     height: 24px;
 }
+
+
+
+
+@media(max-width:425px){
+    .links__section{
+        margin-bottom: 32px;
+    }
+
+    .link__wrapper{
+        height: 68px;
+    }
+
+    .link__wrapper > a{
+        font-size: 14px;
+    }
+
+    .icons{
+        display: none;
+    }
+}

@@ -8,8 +8,12 @@
     margin: 64px auto 0 auto;
     display: flex;
     justify-content: flex-end;
-    width: 40%;
+    width: 50%;
     /* border: 1px solid; */
+}
+
+#mobile__icon{
+    display: none;
 }
 
 .image__wrapper{
@@ -59,4 +63,20 @@
 
 #slack{
     display: none;
+}
+
+
+
+@media(max-width:425px){
+    .header__icon{
+        width: 90%;
+    }
+
+    #mobile__icon{
+        display: block;
+    }
+    
+    #desktop__icon{
+        display: none;
+    }
 }

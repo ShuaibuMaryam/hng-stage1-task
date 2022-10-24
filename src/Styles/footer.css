@@ -1,6 +1,6 @@
 footer{
     display: flex;
-    width: 1216px;
+    width: 85%;
     align-items: center;
     justify-content: space-between;
     border-top: 1px solid #dee0e6;
@@ -11,4 +11,12 @@ footer{
     font-weight: 400;
     font-size: 16px;
     color: #667085;
+}
+
+
+
+@media(max-width:425px){
+    footer{
+        display: none;
+    }
 }
