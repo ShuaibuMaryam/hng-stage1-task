@@ -1,5 +1,7 @@
 import React from 'react'
 import '../Styles/links.css'
+import slackIcon from '../Assets/slack.png'
+import githubIcon from '../Assets/Social icon.png'
 
 function Links() {
   return (
@@ -19,6 +21,10 @@ function Links() {
             </div>
             <div className='link__wrapper'>
                 <a href='https://books.zuri.team/design-rules where' id='book__design'>Design Books</a>
+            </div>
+            <div className='icons'>
+                <img src={slackIcon} alt='Slack icon'/>
+                <img src={githubIcon} alt='GitHub icon'/>
             </div>
         </section>
     </div>

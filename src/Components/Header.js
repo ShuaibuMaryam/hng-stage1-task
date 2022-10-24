@@ -5,6 +5,7 @@ import '../Styles/header.css'
 function Header() {
   return (
     <div>
+      <div></div>
         <div className='profile__section'>
             <div>
                 <img src= {profileImg} alt='user display' id='profile__img'/>
