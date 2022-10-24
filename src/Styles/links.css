@@ -53,6 +53,7 @@
 @media(max-width:425px){
     .links__section{
         margin-bottom: 32px;
+        gap: 20px;
     }
 
     .link__wrapper{
