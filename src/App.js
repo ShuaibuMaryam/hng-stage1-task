@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header'
 import Links from './Components/Links'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <Header />
 
       <Links />
+
+      <Footer />
     </div>
   );
 }

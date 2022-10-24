@@ -9,6 +9,7 @@ function Header() {
         <div className='profile__section'>
             <div>
                 <img src= {profileImg} alt='user display' id='profile__img'/>
+                <div className=''><i></i></div>
             </div>
             <h4 id='twitter'>Maryam Shuaibu</h4>
             <h4 id='slack'>Dabagal Maryam Shuaibu</h4>

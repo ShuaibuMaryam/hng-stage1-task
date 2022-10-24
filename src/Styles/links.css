@@ -34,10 +34,15 @@
 
 .icons{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 34px;
+    width: 1216px;
+    height: 72px;
+    margin: 20px 0 114px 0;
+
 }
 .icons > img{
-    margin-top: 16px;
     width: 24px;
     height: 24px;
 }
