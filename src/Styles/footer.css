@@ -17,6 +17,9 @@ footer{
 
 @media(max-width:425px){
     footer{
-        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
     }
 }
