@@ -23,7 +23,7 @@ function Links() {
                 <a href='https://books.zuri.team/design-rules where' id='book__design'>Design Books</a>
             </div>
             <div className='link__wrapper'>
-                <a href='https://books.zuri.team/design-rules where' id='contact'>Contact Me</a>
+                <a href='/contact' id='contact'>Contact Me</a>
             </div>
             <div className='icons'>
                 <img src={slackIcon} alt='Slack icon'/>
