@@ -46,7 +46,9 @@ function ContactPage() {
                 </div>
             </form>
         </div>
+
         <Footer />
+        
     </div>
   )
 }
