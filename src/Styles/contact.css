@@ -136,4 +136,8 @@ textarea::placeholder{
     .contact_page_header p{
         font-size: 18px;
     }
+
+    .first_two_inputs{
+        display: unset;
+    }
 }

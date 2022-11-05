@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../Components/Footer'
-import '../Styles/contactPage.css'
+import '../Styles/contact.css'
 
 function Contact() {
 
